@@ -29,36 +29,36 @@ white='\e[1;37m'
 nc="\e[0m"
 red='\e[1;31m'
 yellow='\e[1;33m'
-
+$clear
 echo -e $red "MENGHUBUNGKAN..."
-sleep 1
+$sleep 1.00
 apt-get install lolcat ruby figlet gem install ruby
-sleep 1
-clear 
+$sleep 1.00
+$clear 
 echo -e $red " ____  ____   __   _  _  _  _  ____  ____ "
 echo -e $red "/ ___)(  _ \ / _\ ( \/ )( \/ )(  __)(  _ \ "
 echo -e $red "\___ \ ) __//    \/ \/ \/ \/ \ ) _)  )   / "
 echo -e $red "(____/(__)  \_/\_/\_)(_/\_)(_/(____)(__\_) "
-sleep 1
-clear
+$sleep 1.00
+$clear
 echo -e $yellow " ____  ____   __   _  _  _  _  ____  ____ "
 echo -e $yellow "/ ___)(  _ \ / _\ ( \/ )( \/ )(  __)(  _ \ "
 echo -e $yellow "\___ \ ) __//    \/ \/ \/ \/ \ ) _)  )   / "
 echo -e $yellow "(____/(__)  \_/\_/\_)(_/\_)(_/(____)(__\_) "
-sleep 1
-clear
+$sleep 1.00
+$clear
 echo -e $green " ____  ____   __   _  _  _  _  ____  ____ "
 echo -e $green "/ ___)(  _ \ / _\ ( \/ )( \/ )(  __)(  _ \ "
 echo -e $green "\___ \ ) __//    \/ \/ \/ \/ \ ) _)  )   / "
 echo -e $green "(____/(__)  \_/\_/\_)(_/\_)(_/(____)(__\_) "
-sleep 1
-clear
+$sleep 1.00
+$clear
 echo -e $blue " ____  ____   __   _  _  _  _  ____  ____ "
 echo -e $blue "/ ___)(  _ \ / _\ ( \/ )( \/ )(  __)(  _ \ "
 echo -e $blue "\___ \ ) __//    \/ \/ \/ \/ \ ) _)  )   / "
 echo -e $blue "(____/(__)  \_/\_/\_)(_/\_)(_/(____)(__\_) "
-sleep 1
-clear
+$sleep 1.00
+$clear
 echo 
 echo -e $blue " _______ ____   ____  _       _____    _____ _____        __  __ __  __ ______ _____ " 
 echo -e $blue "|__   __/ __ \ / __ \| |     / ____|  / ____|  __ \ /\   |  \/  |  \/  |  ____|  __ \ "
@@ -66,9 +66,9 @@ echo -e $blue "   | | | |  | | |  | | |    | (___   | (___ | |__) /  \  | \  / |
 echo -e $blue "   | | | |  | | |  | | |     \___ \   \___ \|  ___/ /\ \ | |\/| | |\/| |  __| |  _  / "
 echo -e $blue "   | | | |__| | |__| | |____ ____) |  ____) | |  / ____ \| |  | | |  | | |____| | \ \ "
 echo -e $blue "   |_|  \____/ \____/|______|_____/  |_____/|_| /_/    \_\_|  |_|_|  |_|______|_|  \_\ "
-sleep 1
+$sleep 1.00
 echo -e $blue "SPAM BOMBER..."
-sleep 1
+$sleep 1.00
 echo
 echo -e  "---------------------------------------------" | lolcat
 echo -e $red "|CREATOR : HadiPrasetia (TampanSKY)|"
@@ -78,6 +78,18 @@ echo -e $blue "|Thanks To My FAMILY AND MY GOD|"
 echo -e $red "|AND MY GIRLFRIENDS{assyfamawarni}|"
 echo -e  "----------------------------------------------" | lolcat
 echo
+}
+get_sms=$(curl -s http://zlucifer.com/api/sms.php)
+get_call=$(curl -s http://zlucifer.com/api/call.php)
+mulai (){
+    echo "Gunakan TOOLS?"
+    echo "y/n?"
+    echo
+    read lagi
+    if [ $lagi = "y" ]; then
+            spam
+    fi
+}
 spam(){
     clear
     troll
