@@ -95,13 +95,12 @@ echo -e $blue "(____/(__)  \_/\_/\_)(_/\_)(_/(____)(__\_) "
 sleep 0.25
 clear
 echo 
-echo -e $blue " _______ ____   ____  _       _____    _____ _____        __  __ __  __ ______ _____ " 
-echo -e $blue "|__   __/ __ \ / __ \| |     / ____|  / ____|  __ \ /\   |  \/  |  \/  |  ____|  __ \ "
-echo -e $blue "   | | | |  | | |  | | |    | (___   | (___ | |__) /  \  | \  / | \  / | |__  | |__) |"
-echo -e $blue "   | | | |  | | |  | | |     \___ \   \___ \|  ___/ /\ \ | |\/| | |\/| |  __| |  _  / "
-echo -e $blue "   | | | |__| | |__| | |____ ____) |  ____) | |  / ____ \| |  | | |  | | |____| | \ \ "
-echo -e $blue "   |_|  \____/ \____/|______|_____/  |_____/|_| /_/    \_\_|  |_|_|  |_|______|_|  \_\ "
-sleep 1
+echo -e $blue "    _____ ____  ___    __  _____  _____________  _____"
+echo -e $blue "   / ___// __ \/   |  /  |/  /  |/  / ____/ __ \/ ___/"
+echo -e $blue "   \__ \/ /_/ / /| | / /|_/ / /|_/ / __/ / /_/ /\__ \ "
+echo -e $blue "  ___/ / ____/ ___ |/ /  / / /  / / /___/ _, _/___/ / "
+echo -e $blue " /____/_/   /_/  |_/_/  /_/_/  /_/_____/_/ |_|/____/  "
+sleep 0.30
 echo -e $blue "SPAM BOMBER..."
 sleep 0.25
 }
@@ -110,18 +109,29 @@ sleep 0.25
 baner
 echo
 echo -e  "---------------------------------------------" 
+sleep 0.25
 echo -e $red "|CREATOR : HadiPrasetia (TampanSKY)|"
+sleep 0.25
 echo -e $blue "|Sekolah : MTs.AL-Khairiyah|"
+sleep 0.25
 echo -e $yellow "|TEAM : RED EYE CYBER TEAM Official|"
+sleep 0.25
 echo -e $blue "|Thanks To My FAMILY AND MY GOD|"
+sleep 0.25
 echo -e $red "|AND MY GIRLFRIENDS{assyfamawarni}|"
-echo -e  "----------------------------------------------" 
+sleep 0.25
+echo -e  "----------------------------------------------"
+sleep 0.25
 echo
 echo ""
 echo -e "$blue ~~~~~~~~~~~~~~~~~$nc"
+sleep 0.25
 echo -e "$white 1) Spam SMS$nc"
+sleep 0.25
 echo -e "$white 2) Spam Call$nc"
+sleep 0.25
 echo -e "$blue ~~~~~~~~~~~~~~~~~$nc"
+sleep 0.25
 echo -n -e "$yellow root$white@$lightgreen/spambom$white:$red~$cyan # $nc"
 read -e lol
 case $lol in
