@@ -95,11 +95,11 @@ echo -e $blue "(____/(__)  \_/\_/\_)(_/\_)(_/(____)(__\_) "
 sleep 0.25
 clear
 echo 
-echo -e $blue "    _____ ____  ___    __  _____  _____________  _____"
-echo -e $blue "   / ___// __ \/   |  /  |/  /  |/  / ____/ __ \/ ___/"
-echo -e $blue "   \__ \/ /_/ / /| | / /|_/ / /|_/ / __/ / /_/ /\__ \ "
-echo -e $blue "  ___/ / ____/ ___ |/ /  / / /  / / /___/ _, _/___/ / "
-echo -e $blue " /____/_/   /_/  |_/_/  /_/_/  /_/_____/_/ |_|/____/  "
+echo -e  "    _____ ____  ___    __  _____  _____________  _____" | lolcat
+echo -e  "   / ___// __ \/   |  /  |/  /  |/  / ____/ __ \/ ___/" | lolcat
+echo -e  "   \__ \/ /_/ / /| | / /|_/ / /|_/ / __/ / /_/ /\__ \ " | lolcat
+echo -e  "  ___/ / ____/ ___ |/ /  / / /  / / /___/ _, _/___/ / " | lolcat
+echo -e  " /____/_/   /_/  |_/_/  /_/_/  /_/_____/_/ |_|/____/  " | lolcat
 sleep 0.30
 echo -e $blue "SPAM BOMBER..."
 sleep 0.25
@@ -108,19 +108,19 @@ ci
 sleep 0.25
 baner
 echo
-echo -e  "---------------------------------------------" 
+echo -e  "---------------------------------------------" | lolcat
 sleep 0.25
-echo -e $red "|CREATOR : HadiPrasetia (TampanSKY)|"
+echo -e  "|CREATOR : HadiPrasetia (TampanSKY)|" | lolcat
 sleep 0.25
-echo -e $blue "|Sekolah : MTs.AL-Khairiyah|"
+echo -e  "|Sekolah : MTs.AL-Khairiyah|" | lolcat
 sleep 0.25
-echo -e $yellow "|TEAM : RED EYE CYBER TEAM Official|"
+echo -e  "|TEAM : RED EYE CYBER TEAM Official|" | lolcat
 sleep 0.25
-echo -e $blue "|Thanks To My FAMILY AND MY GOD|"
+echo -e  "|Thanks To My FAMILY AND MY GOD|" | lolcat
 sleep 0.25
-echo -e $red "|AND MY GIRLFRIENDS{assyfamawarni}|"
+echo -e  "|AND MY GIRLFRIENDS{assyfamawarni}|" | lolcat
 sleep 0.25
-echo -e  "----------------------------------------------"
+echo -e  "----------------------------------------------" | lolcat
 sleep 0.25
 echo
 echo ""
@@ -139,10 +139,10 @@ case $lol in
 '1')
    echo ""
    echo -e "$white Masukan Nomor Yang Ingin Di spam$nc"
-   read -p " [>] " target
+   read -p " [root@spam:~#>] " target
    echo ""
    echo -e "$white Masukan Jumlah Pesan SMS$nc"
-   read -p " [>] " paket
+   read -p " [root@spam:~#>] " paket
    sleep 0.3
    load
    clear 
@@ -155,7 +155,7 @@ CURL_RESPONSE=`curl -s -o /dev/null -w "%{http_code}" $target_do`
 '2')
    echo ""
    echo -e "$white Masukan Nomor Yang Ingin Di spam$nc"
-   read -p " [>] " target
+   read -p " [root@spam:~#>] " target
    echo ""
    load 
    clear
